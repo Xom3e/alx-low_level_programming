@@ -39,7 +39,7 @@ return (dest);
 }
 
 /**
- * create_array - array for prints a string
+ * _strdup - array for prints a string
  * @str: array of elements
  * Return: pointer
  */
