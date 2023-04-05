@@ -4,19 +4,19 @@
  * sum_listint - Returns the sum of all the data (n)
  * @head: Pointer to the head of the linked list.
  *
- * Return: data
+ * Return: sum
  */
 
 int sum_listint(listint_t *head)
 {
-	int data = 0;
+	int sum = 0;
 	listint_t *temp = head;
 
-	while (temp)
+	while (temp != NULL)
 	{
-	data += temp->n;
+	sum += temp->n;
 	temp = temp->next;
 	}
 
-	return (data);
+	return (sum);
 }
